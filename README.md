@@ -1,3 +1,3 @@
-- 👋 Hi, I’m Jiangwel.
+- 👋 Hi, I’m Jiangwei.
 - 👨‍🎓 PNU
 - 📖 python html
