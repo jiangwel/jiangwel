@@ -1,3 +1,4 @@
 - 👋 Hi, I’m Jiangwei.
-- 👨‍🎓 PNU
+- I’m from China.
+- 👨‍🎓 Pusan National University
 
