@@ -1,0 +1,18 @@
+{
+  "name": "Sort out tabs",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Sort out tabs",
+  "default_locale": "zh_CN",
+  "action": {
+    "default_icon": "images/icon.png",
+    "default_title": "Sort out tabs",
+    "default_popup": "html/main.html"
+  },
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  },
+  "permissions": ["tabs","tabGroups","nativeMessaging","storage"],
+  "offline_enabled":true
+}
