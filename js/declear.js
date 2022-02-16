@@ -89,17 +89,17 @@ function addWindowsIdIntoArray(id) {
         //5-a-ii.关闭锁 
         object.clock = 1;
         foldGroup(object);
-        setTimeout(function(){
+        //setTimeout(function(){
           openAndCloseGroup(object.groupId);
-        },200);
+        //},49);
   
         //5-b.如果锁是关的: 
     } else {
         createNewGroup(object,id,object.groupId);
         //以迅雷不及掩耳之势打开关闭组
-        setTimeout(function(){
+        //setTimeout(function(){
           openAndCloseGroup(object.groupId);
-        },200);
+        //},49);
         
     }
     console.log("结束锁值",object.clock);

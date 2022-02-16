@@ -58,13 +58,13 @@ chrome.tabs.onActivated.addListener((value) => {
   if (currentWindowsId == windowsIdArray[0]) {
     //console.log("当前窗口id:",currentWindowsId,"进入变量1");
     chrome.storage.local.get(variable1, (variable1) => {
-      console.log(variable1.tabsIdList);
-      console.log(variable1.clock);
       tabFlow(variable1, tabid);
       
       setTimeout(function(){
         console.log("tabflow运行结束");
         chrome.storage.local.set(variable1);
+        console.log(variable1);
+
       },50);
       
     })
