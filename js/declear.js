@@ -80,7 +80,7 @@ function addWindowsIdIntoArray(id) {
   */
   function groupManagement(id, object) {
     //5-a.如果锁是开的: 
-    console.log("初始锁值",object.clock);
+    //console.log("初始锁值",object.clock);
     if (object.clock == 0) {
         
         //5-a-i.创建一个组 
@@ -89,20 +89,20 @@ function addWindowsIdIntoArray(id) {
         //5-a-ii.关闭锁 
         object.clock = 1;
         foldGroup(object);
-        //setTimeout(function(){
+        setTimeout(function(){
           openAndCloseGroup(object.groupId);
-        //},49);
+        },200);
   
         //5-b.如果锁是关的: 
     } else {
         createNewGroup(object,id,object.groupId);
         //以迅雷不及掩耳之势打开关闭组
-        //setTimeout(function(){
+        setTimeout(function(){
           openAndCloseGroup(object.groupId);
-        //},49);
+        },200);
         
     }
-    console.log("结束锁值",object.clock);
+    //console.log("结束锁值",object.clock);
   }
   /*
     @brief:Create a new group and put the into the group
