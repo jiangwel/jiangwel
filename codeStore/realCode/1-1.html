@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <style>
+      body{margin:0;padding:0;font-family:'PingFang SC','Microsoft Yahei',Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;overflow:hidden;user-select:none;box-sizing:border-box}popup-add-icon{width:360px;box-sizing:border-box;padding:6px 20px 0;display:flex;flex-direction:column;background-color:#fff}
+    </style>
+  </head>
+  <body style="--top-bar-height:0px; --settings-icon-top-offset:20px; --search-height:15px; --search-width:169px; --search-margin-top:-26px; --search-margin-bottom:12px; --search-ratio:0.27; --icon-box-width:286px; --icon-box-height:145px; --icon-one-height:72px; --icon-width:25px; --mini-icon-padding:7px; --icon-ratio:0.24; --icon-row:2; --icon-col:5; --main-icons-margin:36px; --side-ratio:1; --main-ratio:1; --icon-radius:50%; --icon-font-color:rgb(221, 221, 221); --icon-font-size:15px; --icon-opacity:1; --icon-visible:visible; --search-radius:0.1; --search-opacity:1;">
+    <popup-add-icon>
+      <i-editicon style="padding: 24px 20px 20px;" icontype="custom-icon">
+        <!-- #shadow-root (open) -->
+          <div class="box-dynamic">
+            <div class="item">
+              <div class="label-box">
+                <span class="label">
+                  <!---->
+                  窗口最大标签页数
+                  <!---->
+                </span>
+              </div>
+              <infinito-slider>
+                <!-- #shadow-root(open) -->
+                  <!---->
+                  <div class="i-slider">
+                    <div class="i-slider-picked" style="width:0%">
+                      <div class="ball"></div>
+                    </div>
+                  </div>
+                  <div class="i-picker-tips">
+                    <infinito-inputnumber readonly>
+                      <!-- #shadow-root(open) -->
+                      <div class="i-input-number">
+                        <div class="input-wrap">
+                          <span class="input">
+                            <!---->
+                            <!---->
+                            "1"
+                            <!---->
+                            <!---->
+                          </span>
+                        </div>
+                      </div>
+                    </infinito-inputnumber>
+                  </div>
+                  <!---->
+              </infinito-slider>
+              </div>
+            <div class="item">
+              <div class="label-box">
+                <span class="label">
+                  "组的颜色"
+                </span>
+              </div>
+            <i-colorpicker>
+              <!-- #shadow-root(open) -->
+              <section class="color-pick-list">
+                <!---->
+                <span class="active color-item" style="color:rgba(255,71,52,1);">
+                  ::before
+                </span>
+                <!---->
+                <span class="color-item" style="color:rgba(255,122,9,1);"></span>
+                <!---->
+                <span class="color-item" style="color:rgba(255,207,12,1);"></span>
+                <!---->
+                <span class="color-item" style="color:rgba(42,233,121,1);"></span>
+                <!---->
+                <span class="color-item" style="color:rgba(44,214,223,1);"></span>
+                <!---->
+                <span class="color-item" style="color:rgba(0,116,255,1);"></span>
+                <!---->
+                <span class="color-item" style="color:rgba(109,9,255,1);"></span>
+                <!---->
+                <span class="color-item" style="color:rgba(255,36,160,1);"></span>
+                <!---->
+                <span class="color-item color-dropper " style="background: url(/images/color.321ebce.jpg) no-repeat center; background-size: contain;"></span>
+              </section>
+              <section class="color-picker " style="margin-right:0px" hidden="">
+              </section>
+            </i-colorpicker>
+            </div>
+          </div>
+          <div class="item btn-box">
+            <infinito-button primary="">
+              #shadow-root
+                <!---->
+                <button>
+                  <span>
+                    <slot></slot>
+                  </span>
+                </button>
+                <!---->
+              <!---->确定<!---->
+            </infinito-button>
+            
+          </div>
+      </i-editicon>
+    </popup-add-icon>
+    <script src="/HTML/Chrome Extension/Tab Flow/js/popup.js"></script>
+    <script src="/HTML/Chrome Extension/Tab Flow/js/vue.min.js" id="script-vue"></script>
+    <script src="/HTML/Chrome Extension/Tab Flow/js/color-picker.min.js" id="script-color"></script>
+  </body>
+</html>

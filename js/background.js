@@ -1,4 +1,5 @@
-//@Used API: chrome.tabs,chrome.tabgroups,chrome.windows,chrome.stroge
+//@Used API: chrome.tabs,chrome.tabgroups,chrome.windows,chrome.stroge/
+//
 import {
   Variable,
   addWindowsIdIntoArray,
