@@ -1,5 +1,4 @@
 //@Used API: chrome.tabs,chrome.tabgroups,chrome.windows,chrome.stroge/
-//
 import {
   Variable,
   addWindowsIdIntoArray,
@@ -56,8 +55,8 @@ chrome.tabs.onActivated.addListener((value) => {
   var tabid = value.tabId;
 
   if (currentWindowsId == windowsIdArray[0]) {
-    //console.log("当前窗口id:",currentWindowsId,"进入变量1");
     chrome.storage.local.get(variable1, (variable1) => {
+      console.log("当前窗口id:",currentWindowsId,"进入变量1");
       tabFlow(variable1, tabid);
 
       //setTimeout(function () {
