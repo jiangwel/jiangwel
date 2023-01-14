@@ -1,3 +1,3 @@
 - 👋 Hi, My name is Jiangwei(江巍).
-- ⭐ I'm come from China.
-- 👨‍🎓 Study in korea Pusan National University.
+- ⭐ From China.
+- 👨‍🎓 Study at Pusan National University(korea).
