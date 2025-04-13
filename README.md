@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm jiangwei(pronounce:jangwe).</h1>
+<h1 align="center">Hi 👋, I'm jiangwei(pronounce:jang we).</h1>
 
 <h3 align="left">Stats</h3>
 <p>
